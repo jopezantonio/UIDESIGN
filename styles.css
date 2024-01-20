@@ -1,0 +1,124 @@
+body {
+    width: 1920px;
+    height: 1150px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+footer {
+    border: 1px solid white;
+}
+
+header h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+#caja-rosa{
+    width: 781px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color:#FD1EBD;
+    margin-top: 71px;
+    margin-bottom: 48px;
+}
+
+#caja-amarilla {
+    width: 643px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FFFD38;
+}
+
+#contenedor-uipractice {
+    width: 725px;
+    height: 746px;
+    flex-shrink: 0;
+    margin-left: 61px;
+    border-left: 1px solid white;
+    padding-left: 71px;
+}
+
+
+#contenedor-uipractice h1 {
+    color: rgba(255, 255, 255, 0.30);
+    font-family: Inter;
+    font-size: 50.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+#contenedor-uipractice span {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 289.846px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 65px;
+    border: 1px solid red;  
+}
+
+#autor {
+    color: #FFFD38;
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+#contenedor-autor {
+    display: flex;
+    position: relative;
+    bottom: 115px;
+    border: 1px solid red; 
+    }
+
+.h2-contenedor-ui {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 163.445px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 115px;
+    border: 1px solid red;  
+}
+
+.designed {
+    display: flex;
+    border: 1px solid red; 
+    position: relative;
+    bottom: 115px;
+    border: 1px solid red;
+    margin-top: 19px ;
+    margin-bottom: 45px ;   
+}
+
+.designed h2 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 43.493px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.designed img {
+    width: 55px;
+    height: 55px;
+    margin-left: 17px;;
+}
