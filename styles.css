@@ -2,8 +2,7 @@ body {
     width: 1920px;
     height: 1150px;
     background-color: black;
-    border: 1px solid white;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -13,11 +12,28 @@ header {
 }
 
 footer {
-    border: 1px solid white;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 424.53px;
+    left: 1715.89px
 }
 
 header h1 {
     font-family: 'Inter', sans-serif;
+}
+
+footer img{
+    position: relative;
+    top: 25px
+    
+}
+
+#cajafooter{
+    width: 130x;
+    height: 33.835px;
+    background-color: #FFFD38;
 }
 
 #caja-rosa{
@@ -35,6 +51,12 @@ header h1 {
     flex-shrink: 0;
     background-color: #FFFD38;
 }
+
+#doublebox{
+    display: flex;
+    width: 1200px;
+}
+
 
 #contenedor-uipractice {
     width: 725px;
@@ -65,7 +87,6 @@ header h1 {
     line-height: normal;
     position: relative;
     bottom: 65px;
-    border: 1px solid red;  
 }
 
 #autor {
@@ -78,12 +99,59 @@ header h1 {
     text-decoration-line: underline;
 }
 
-#contenedor-autor {
+#contenedor-autor{
     display: flex;
     position: relative;
     bottom: 115px;
-    border: 1px solid red; 
-    }
+}
+
+#container4{
+    width:220px;
+    height: 426px;
+    display: flex;
+    position: relative;
+    right: 245px;
+    top: 45px;
+}
+
+#numero4{
+    color: #FFF;
+    font-family: 'Sevilla', sans-serif;
+    font-size: 225px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#designers{
+    display: flex;
+    width: 655px;
+    position: relative;
+    left: 720px;
+    bottom: 500px
+}
+
+#newbies{
+color: rgba(255, 255, 255, 0.80);
+font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+left: 140px;
+top: 95px
+}
+
+#h2designers{
+color: #FFF;
+font-family: 'Sevilla', sans-serif;
+font-size: 163.445px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 
 .h2-contenedor-ui {
     color: #FFF;
@@ -93,16 +161,13 @@ header h1 {
     font-weight: 400;
     line-height: normal;
     position: relative;
-    bottom: 115px;
-    border: 1px solid red;  
+    bottom: 115px;    
 }
 
 .designed {
     display: flex;
-    border: 1px solid red; 
     position: relative;
     bottom: 115px;
-    border: 1px solid red;
     margin-top: 19px ;
     margin-bottom: 45px ;   
 }
